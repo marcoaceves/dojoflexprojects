@@ -7,36 +7,36 @@
     <h1>Registration Form</h1>
     <div>
         <label for="firstName">First Name:*</label>
-        <input type="text" name="firstName">
+        <input type="text" name="firstName" id="firstName">
     </div>
     <div>
         <label for="lastName">Last Name:*</label>
-        <input type="text" name="lastName">
+        <input type="text" name="lastName" id="lastName">
     </div>
     <div>
         <label for="email">Email Address:*</label>
-        <input type="text" name="email" placeholder="Your email...">
+        <input type="text" name="email" placeholder="Your email..." id="email">
     </div>
     <div>
         <label for="password">Password:*</label>
-        <input type="password" name="password">
+        <input type="password" name="password" id="password">
     </div>
     <div>
         <label for="passwordConfirmation">Confirm Password:*</label>
-        <input type="password" name="passwordConfirmation">
+        <input type="password" name="passwordConfirmation" id="passwordConfirmation">
     </div>
     <p>Gender Identity:</p>
     <div>
-        <input type="radio" name="male">
+        <input type="radio" name="male" id="male">
         <label for="male">Male</label>
 
-        <input type="radio" name="female">
+        <input type="radio" name="female" id="female">
         <label for="female">Female</label>
 
-        <input type="radio" name="non-binary">
+        <input type="radio" name="non-binary" id="non-binary">
         <label for="non-binary">Non-binary</label>
 
-        <input type="radio" name="preferNotToAnswer">
+        <input type="radio" name="preferNotToAnswer" id="preferNotToAnswer">
         <label for="preferNotToAnswer">I prefer not to answer</label>
     </div>
     
@@ -44,7 +44,7 @@
     <textarea cols="30" rows="5"></textarea>
     <div>
         <label for="languageList">Favorite language</label>
-        <select name="languageList">
+        <select name="languageList" id="languageList">
             <option>JavaScript</option>
             <option>CSS</option>
             <option>HTML</option>
@@ -52,7 +52,7 @@
         </select>
     </div>
     <div>
-        <input type="checkbox" name="optIn">
+        <input type="checkbox" name="optIn" id="optIn">
         <label for="optIn">Yes, I would like to receive periodic email updates</label>        
     </div>
     <button type="submit" name="createAccount">Create Account</button>
