@@ -5,14 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<style>
-    table, th, td {
-    border:1px solid black;
-    }
-</style>                                         
 <body>
-    <h1>Marco Aceves</h1>
+    <h1 class="marco">Marco Aceves</h1>
+    <h1 class="soft">Software Engineer</h1>
     <img src="picture.jpg" alt="My profile picture">
     <div>
         <img src="github-icon-png-1.png" alt="github Logo">
@@ -31,7 +28,7 @@
         <li>Astronomy</li>
         <li>Inner exploration</li>
     </ul>
-    <table style="width:50%">
+    <table class="table" >
         <tr>
             <th>Favorite Video Games</th>
             <th>Release year</th>
@@ -70,18 +67,11 @@
     <input type="email" name="email" id="email">
 
 
-    <div></div>
-    <textarea name="comment" cols="70" rows="7"></textarea>
-    
-        <input type="submit" value="Send Message">
+    <div>
+        <textarea name="comment" cols="70" rows="7"></textarea>
     </div>
 
+    <input type="submit" value="Send Message">
 
-
-
-
-
-
-    
 </body>
 </html>
