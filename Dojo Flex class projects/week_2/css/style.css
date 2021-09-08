@@ -1,0 +1,32 @@
+#u{
+    border: 30px solid royalblue;
+    margin: 50px 15px 0px 15px;
+    width: 500px;
+}
+h1{
+    color: royalblue;
+    text-align: center;
+}
+#body{
+    text-align: center;
+}
+table, td, th{
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+.video video{
+    align-items: center;
+    border: 30px solid royalblue;
+    margin: 50px;
+    width: 700px;
+}
+ul{
+    list-style: square;
+}
+.ep1{
+    width: 250px;
+}

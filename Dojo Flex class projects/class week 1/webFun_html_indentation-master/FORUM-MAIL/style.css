@@ -93,4 +93,11 @@ button[type="submit"]:hover{
         pointer-events: none;
     }
 }
+input[type="email"]{
+    background-color: crimson;
+    color: crimson;
+}
+textarea[type="submit"]{
+    background-color: rgb(107, 247, 26);
+}
 
