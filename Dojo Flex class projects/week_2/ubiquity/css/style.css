@@ -57,9 +57,10 @@ ul{
     list-style: square;
 }
 ol{
-    
+    text-align: left;
     margin: 10px 300px;
     border: 1px solid black;
+    padding: 0px 0px 0px 90px;
 }
 .ep1{
     border: 20px solid rgb(50, 89, 197);
