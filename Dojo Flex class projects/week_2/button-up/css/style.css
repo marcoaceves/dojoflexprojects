@@ -14,12 +14,12 @@ body{
 }
 .plus{
     border-radius: 50%;
-    background-color: rgb(65, 179, 150);
+    background-color: rgb(54, 201, 164);
     color: white;
     width: 40px;
     height: 40px;
-    border-color: rgb(65, 179, 150);
-    outline-color: rgb(65, 179, 150);
+    border-color: rgb(54, 201, 164);
+    outline-color: rgb(54, 201, 164);
     font-size: 25px;
     padding-bottom: 20px;
     margin-bottom: 20px;
