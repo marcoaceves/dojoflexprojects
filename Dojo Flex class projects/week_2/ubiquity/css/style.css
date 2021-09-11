@@ -1,6 +1,7 @@
 body{text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    background-image: url();
     
 }
 
@@ -50,32 +51,41 @@ th{ color: royalblue;
 .video video{
     align-items: center;
     border: 30px solid royalblue;
-    margin: 50px;
     width: 700px;
 }
+.doubbleborder{
+        border: 30px solid black;
+        margin: 0px auto 0px ;
+        width: 760px; 
+        height: 453px;
+        padding: 0px ;
+    }
+
 ul{
     list-style: square;
 }
-ol{
+ol{ 
+    width: 250px;
+    font-weight: bolder;
     text-align: left;
-    margin: 10px 300px;
-    border: 1px solid black;
-    padding: 0px 0px 0px 90px;
+    margin: 0 auto 40px; 
+    border: 10px solid rgb(50, 89, 197);
+    padding: 5px 0px 20px 50px;
 }
 .ep1{
-    border: 20px solid rgb(50, 89, 197);
-    margin: none;
-    width: 300px;
+    border: 10px solid rgb(50, 89, 197);
+    margin: 0 auto;
+    width: 200px;
 }
 a{
     text-decoration: none;
     
 }
 a:link {
-    text-decoration: blue;
+    text-decoration: rgb(99, 99, 211);
 }
 a:visited {
-    color: blue;
+    color: rgb(93, 93, 240);
 }
 a:hover {
     text-decoration: underline;
@@ -96,6 +106,38 @@ a:hover {
     font-size: 20px;
     color: royalblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    outline-color: black;
+    border-style:  solid;
+    border-color: royalblue;
+    border-width: 1px;
+
+}
+#comments:focus {
+    outline: none !important;
+    border:1px solid rgb(68, 0, 255);
+    box-shadow: 0 0 20px #719ECE;
 }
 .container{
+    width: auto;
+    display: flex;
+    margin: 0  auto;
+    align-items: center;
+    padding: none;
+    
+}
+#epOne{
+    margin: 20px auto ;
+    padding: none;
+    
+}
+#epTwo{
+    margin: 20px auto ;
+    padding: none;
+    
+}
+#eptr{
+    margin: 20px auto ;
+    padding: none;
+    
 }
