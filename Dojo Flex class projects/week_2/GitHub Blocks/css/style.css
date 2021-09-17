@@ -3,6 +3,8 @@
     width: 1000px;
     padding-bottom: 20px;
     padding-top: 5px;
+    margin: 20px auto;
+    
     
 }
 .img{
@@ -15,6 +17,7 @@
     justify-content: space-around;
     padding: 20px;
     margin: 20px;
+    
 }
 .second{
     display: flex;
@@ -23,8 +26,6 @@
     justify-content: space-evenly;
     padding: 20px;
     margin: 20px;
-
-
 }
 
 
