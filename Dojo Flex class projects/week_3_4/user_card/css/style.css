@@ -1,0 +1,72 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    
+    
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+    margin: 50px auto;
+    width: 1000px;
+    
+}
+.blue{
+    background-color: rgb(107, 137, 182);
+    width: inherit;
+    height: 70px;
+    margin: 0;
+}
+#float{
+    
+    position: fixed;
+    top: 120px;
+    left: 260px;
+    
+    
+}
+#circle{
+    width: 70px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    shad
+    
+    
+    
+    
+}
+.box{
+    border: 5px solid grey;
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px #888888;
+    
+    
+}
+#marker{
+    width: 10px;
+    margin-right: 8px;
+}
+#gear{
+    width: 15px;
+    margin-right: 8px;
+}
+p{
+    margin: 0 20px ;
+}
+h1{
+    margin: 40px 20px 20px 20px;}
+h3{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+a{
+    font-size: 17px;
+    color: cornflowerblue;
+}
