@@ -3,14 +3,14 @@ padding: 0;
 margin: 0;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Brush Script MT', cursive;
     width: auto;
 }
 
 .navbar{
     display: flex;
     align-items: center;
-    padding-left:200px ;
+    justify-content: center;
     background-color: black;
     width: auto;
     height:70px;
@@ -39,8 +39,8 @@ li{
     text-decoration: none;
 }
 button{
-    
-    font-size: 16px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
     color: white;
     background-color: cornflowerblue;
     width: 120px;
@@ -52,21 +52,18 @@ button{
 
 
 .wrapper{
-    font-family: sans-serif;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    
-    
-
-    margin: 1px auto;
-    width: auto ;
+    margin: 0px auto;
+    width: 100px ;
     
 }
 .row1{
     display: flex;
-    padding: 40px 0px 40px 40px;
-    margin: 0px ;
-    margin-left: 120px;
+    
+    
+    margin: 0 auto;
     width: 1000px;
 }
 /* box1 */
@@ -74,21 +71,22 @@ button{
     
     border: 5px solid grey;
     width: 460px;
-    height: 350px;
+    height: 330px;
     border-radius: 8px;
-    margin: 30px;
+    margin: 30px 0px 30px 60px;
+    margin-top: -190px;
 }
 .blue{
     background-color: rgb(107, 137, 182);
     width: inherit;
-    height: 100px;
+    height: 80px;
     margin: 0;
-    margin-bottom: 35px;
+    margin-bottom: 55px;
 }
 .float{
     
     position: absolute;
-    top: 150px;
+    top: 130px;
 }
 #circle_user{
     width: 85px;
@@ -105,8 +103,22 @@ button{
     padding-left: 20px;
     padding-right: 5px;
 }
+h3{
+    padding-bottom: 10px;
+}
 p{
+    padding: 3px 0px;
     padding-left: 20px;
+}
+#gear{
+    width: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+a{
+    font-size: 17px;
+    color: cornflowerblue;
 }
 
 
@@ -114,9 +126,38 @@ p{
 .box2{
     border: 5px solid grey;
     width: 460px;
-    height: 300px;
+    height: 200px;
     border-radius: 8px;
-    margin: 30px;
+    margin: 30px 0px 30px 60px;
+}
+.darkgrey1{
+    background-color: rgb(78, 75, 75);
+    width: inherit;
+    height: 50px;
+    margin: 0;
+}
+h4{
+    
+    color: white;
+    
+}
+#education{
+    padding-top: 13px;
+    padding-left: 20px;
+}
+#codingdojo, #year, #grade{
+    padding: 10px 0px 0px 20px;
+
+}
+#codingdojo{
+    font-size: 20px;
+}
+#year{
+    color: grey;
+    font-size: 16px;
+}
+#grade{
+    font-size: 16px;
 }
 
 .row2{
@@ -134,19 +175,92 @@ p{
     height: 250px;
     border-radius: 8px;
     margin: 30px;
-    margin-left: -130px;
+    
 }
+
+#todd{
+    width: 50px;
+    vertical-align: text-top;
+    border: 3px solid rgb(105, 100, 100);
+    border-radius: 50px 50px;
+    margin-left: 0px;
+}
+#accept{
+    width: 30px;
+    vertical-align: text-top;
+    margin-left: 45px;
+}
+#close{
+    width: 31px;
+    vertical-align: text-top;
+    
+}
+#accept2{
+    width: 30px;
+    vertical-align: text-top;
+    margin-left: 57px;
+}
+#close2{
+    width: 31px;
+    vertical-align: text-top;
+    
+}
+#h1todd{
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.two{
+    text-align: center;
+    padding-top: 15px;
+}
+#span2{
+    
+    border-radius: 50%;
+    padding: 3px 10px;
+    background: rgb(192, 188, 188);
+    border: 2px solid #666;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 10px;
+    font-size: large;
+}
+
 .box4{
     border: 5px solid grey;
     width: 300px;
-    height: 400px;
+    height: 500px;
     border-radius: 8px;
     margin: 30px;
-    margin-left: -130px;
+    
+}
+#five{
+    border-radius: 50%;
+    padding: 3px 10px;
+    background: rgb(192, 188, 188);
+    border: 2px solid #666;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 10px;
+    font-size: large;
+}
+.your{
+    padding: 14px 20px 0px 20px ;
 }
 .darkgrey{
     background-color: rgb(78, 75, 75);
     width: inherit;
-    height: 70px;
+    height: 55px;
     margin: 0;
+    
+}
+#view{
+    border-top: solid grey;
+    padding: 10px 0px 0px 20px;
+}
+#viewmore{
+    font-size: x-large;
+    
+    
+    
 }
