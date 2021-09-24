@@ -120,6 +120,9 @@ a{
     font-size: 17px;
     color: cornflowerblue;
 }
+.card{
+    margin-top: 50px;
+}
 
 
 /* box2 */
@@ -132,7 +135,7 @@ a{
 }
 .darkgrey1{
     background-color: rgb(78, 75, 75);
-    width: inherit;
+    /* width: inherit; */
     height: 50px;
     margin: 0;
 }
@@ -178,22 +181,27 @@ h4{
     
 }
 
-#todd{
+.todd{
     width: 50px;
     vertical-align: text-top;
     border: 3px solid rgb(105, 100, 100);
     border-radius: 50px 50px;
     margin-left: 0px;
 }
-#accept{
+.accept{
     width: 30px;
     vertical-align: text-top;
     margin-left: 45px;
 }
-#close{
+.close{
     width: 31px;
     vertical-align: text-top;
     
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 #accept2{
     width: 30px;
@@ -205,12 +213,17 @@ h4{
     vertical-align: text-top;
     
 }
-#h1todd{
+.h1todd{
     padding: 20px;
     font-size: 20px;
     
 }
 .two{
+    background-color: rgb(78, 75, 75);
+    width: inherit;
+    height: 55px;
+    margin: 0;
+    
     text-align: center;
     padding-top: 15px;
 }
@@ -247,20 +260,10 @@ h4{
 .your{
     padding: 14px 20px 0px 20px ;
 }
-.darkgrey{
-    background-color: rgb(78, 75, 75);
-    width: inherit;
-    height: 55px;
-    margin: 0;
-    
-}
-#view{
-    border-top: solid grey;
+
+.view{
     padding: 10px 0px 0px 20px;
-}
-#viewmore{
+    border-top: solid grey;
+    display: block;
     font-size: x-large;
-    
-    
-    
 }
