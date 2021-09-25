@@ -1,0 +1,121 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* button */
+.btn{
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    background-color: royalblue;
+    border-color: black;
+    padding: 5px 15px;
+    outline-color: black;
+    box-shadow: 5px 5px  rgb(0, 0, 0);
+    border-style: solid;
+    
+}
+
+/* row column */
+.row{background-color: rgb(63, 66, 66);
+    flex: 1;
+    display: flex;
+}
+.col{
+    margin: 10px;
+    flex: 1;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+/* navbar flex */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.nav{
+    color: white;
+    background-color: rgb(70, 66, 66);
+    display: flex;
+    align-items: ce;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 900px;
+    height: 40px;
+    padding-left: 20px;
+    
+}
+#nav-links{    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+
+}
+li{
+    font-size: 15px;
+    list-style: none;
+    margin: 20px;
+}
+.nav-title{
+    margin-right: auto;
+}
+body{font-family: 'Roboto';
+    
+}
+.button{
+    box-shadow: 2px 2px  rgb(0, 0, 0);
+    width: 70px;
+    height: 25px;
+    border-radius: 1px;
+    color: white;
+    background-color: rgb(37, 164, 238);
+    border-color: black;
+    border-style: solid;
+}
+.active{
+    font-weight: bolder;
+}
+
+/* big button  */
+button[type="submit"]{
+    width: 500px ;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+    background-color: rgb(214, 226, 236) ;
+}
+
+
+
