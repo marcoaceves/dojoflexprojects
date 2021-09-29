@@ -12,9 +12,9 @@
 
         <!-- nav bar -->
         <div class="navbar">
-            <h1>Dojonary</h1>
+            <h1 id="dojo">Dojonary</h1>
             <input type="text" placeholder="Search" id="search">
-            <button type="button" id="login">Login</button>
+            <button onclick="logOff(this)" type="button" id="login">Login</button>
         </div>
 
         <!-- main content -->
@@ -23,28 +23,27 @@
                 <div class="box1">
                     <div class="leftside">
                         <h1>ninja</h1>
-                        <h3>noun</h3>
-                        <p>Plural: ninjas</p>
-                        <button type="button" id="likes">13 likes</button>
+                        <h3 class="noun">noun</h3>
+                        <p class="plural">Plural: ninjas</p>
+                        <button  onclick="alert('Ninja was liked')" type="button" id="likes">13 likes</button>
                     </div>
-                    <p class="definition"> A practitioner skilled in the<a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    <p class="definition"> A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
                 </div>
                 <div class="box1">
                     <!-- leftside inside box -->
                     <div class="leftside"> 
                         <h1>ninja</h1>
-                        <h3>noun</h3>
-                        <p id="plural"> Plural : ninjas</p>
-                        <button type="button" id="likes">13 likes</button>
+                        <h3 class="noun">noun</h3>
+                        <p class="plural">Plural : ninjas</p>
+                        <button onclick="alert('Ninja wa liked')" type="button" id="likes">37 likes</button>
                     </div>
-                    <p class="definition"> A practitioner skilled in the<a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    <p class="definition"> A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
 
                 </div>
             </div>
             <div class="rightside">
-                <p>Dojonary is</p>
-                <p> defined by <span>YOU</span></p>
-                <button type="button" id="add">Add definition</button>
+                <p id="dojonary">Dojonary is defined by <span>YOU</span></p>
+                <button onclick="hide(this)" type="button" id="add">Add definition</button>
 
             </div>
             
@@ -59,6 +58,6 @@
 
     </div>
     
-
+<script src="script.js"> </script>
 </body>
 </html>
