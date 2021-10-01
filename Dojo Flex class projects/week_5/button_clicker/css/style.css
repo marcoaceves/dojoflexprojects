@@ -61,9 +61,9 @@
 .plural{ 
     text-align: center;
     padding: 10px 0px;
-    
+    white-space: nowrap ;
 }
-#likes{
+.likes{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     width: 70px;
     height: 30px;
