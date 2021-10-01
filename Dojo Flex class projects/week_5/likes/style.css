@@ -6,7 +6,7 @@
     width: 900px;
     margin: auto;
     background: white;
-    padding: 10px;
+    padding:0 10px 10px 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -25,6 +25,11 @@
     margin: 20px;
     
 
+}
+/* flexContent */
+.flexContent{
+    display: flex;
+    justify-content: space-evenly;
 }
 /* Avatar box */
 
@@ -56,6 +61,7 @@
     height: 150px;
     margin: 30px;
     padding-top: 20px;
+    
 }
 .row1{
     display: flex;
@@ -66,6 +72,7 @@
     margin-left: 30px;
     font-weight: bold;
     font-size: 25px;
+    flex: 1;
 }
 .postText{
     margin-left: 30px;
@@ -73,12 +80,15 @@
     margin-top: 25px;
     font-weight: bolder;
 }
-.likesOne{
+.likesOne, .likesThree, .likesTwo{
+    flex: 1;
     
     font-weight: bolder;
     font-size: larger;
 }
+
 .yellowButton{
+    
     margin-right: 50px;
     border: 3px solid black;
     width: 70px;
