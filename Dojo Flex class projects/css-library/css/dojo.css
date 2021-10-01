@@ -129,3 +129,17 @@ button[type="submit"]:hover{
     position: relative;
     bottom: 5px;
 }
+/* counter */
+.counter{
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+.plus{
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+}
