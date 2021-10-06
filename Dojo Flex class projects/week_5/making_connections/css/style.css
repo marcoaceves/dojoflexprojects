@@ -1,0 +1,270 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    font-family: sans-serif;
+    width: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: auto;
+    height:70px;
+    color: white;
+    margin: 0 auto ;
+    margin-bottom: -40px;
+}
+ul{ 
+    display: flex;
+    
+    margin: 0 30px ;
+    list-style: none;
+    margin-right: 200px;
+}
+li{
+    padding: 0 10px ;
+    
+    
+}
+#myprofile{
+    font-weight: bolder;
+}
+
+.navlinks{
+    color: white;
+    text-decoration: none;
+}
+button{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    color: white;
+    background-color: cornflowerblue;
+    width: 120px;
+    height: 35px;
+    border-color: cornflowerblue;
+    padding-bottom: 2px;
+    
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    width: 100px ;
+    
+}
+.row1{
+    display: flex;
+    
+    
+    margin: 0 auto;
+    width: 1000px;
+}
+/* box1 */
+.box1{
+    
+    border: 5px solid grey;
+    width: 460px;
+    height: 330px;
+    border-radius: 8px;
+    margin: 30px 0px 30px 60px;
+    margin-top: -190px;
+}
+.blue{
+    background-color: rgb(107, 137, 182);
+    width: inherit;
+    height: 80px;
+    margin: 0;
+    margin-bottom: 55px;
+}
+.float{
+    
+    position: absolute;
+    top: 130px;
+}
+#circle_user{
+    width: 85px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px 50px;
+    margin-left: 20px;
+}
+#marco{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+#marker{
+    width: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+h3{
+    padding-bottom: 10px;
+}
+p{
+    padding: 3px 0px;
+    padding-left: 20px;
+}
+#gear{
+    width: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+a{
+    font-size: 17px;
+    color: cornflowerblue;
+}
+.card{
+    margin-top: 50px;
+}
+
+
+/* box2 */
+.box2{
+    border: 5px solid grey;
+    width: 460px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 30px 0px 30px 60px;
+}
+.darkgrey1{
+    background-color: rgb(78, 75, 75);
+    /* width: inherit; */
+    height: 50px;
+    margin: 0;
+}
+h4{
+    
+    color: white;
+    
+}
+#education{
+    padding-top: 13px;
+    padding-left: 20px;
+}
+#codingdojo, #year, #grade{
+    padding: 10px 0px 0px 20px;
+
+}
+#codingdojo{
+    font-size: 20px;
+}
+#year{
+    color: grey;
+    font-size: 16px;
+}
+#grade{
+    font-size: 16px;
+}
+
+.row2{
+    display: flex;
+    
+    justify-content: left;
+    padding: 40px 40px 40px 0px;
+
+    margin: 0px ;
+    width: 1000px;
+}
+.box3{
+    border: 5px solid grey;
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 30px;
+    display: grid;
+    
+}
+
+.todd{
+    width: 50px;
+    vertical-align: text-top;
+    border: 3px solid rgb(105, 100, 100);
+    border-radius: 50px 50px;
+    margin: 0;
+    
+    
+    
+}
+.accept{
+    width: 30px;
+    vertical-align: text-top;
+    margin-left: 45px;
+}
+.close{
+    width: 31px;
+    vertical-align: text-top;
+    
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.h1todd, .phil{
+    
+    
+    
+    padding: 20px;
+    font-size: 20px;
+    max-width: 200px;
+    white-space: nowrap ;
+    
+}
+.two{
+    background-color: rgb(78, 75, 75);
+    width: inherit;
+    height: 55px;
+    margin: 0;
+    
+    text-align: center;
+    padding-top: 15px;
+}
+#span2{
+    
+    border-radius: 50%;
+    padding: 3px 10px;
+    background: rgb(192, 188, 188);
+    border: 2px solid #666;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.box4{
+    border: 5px solid grey;
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+    margin: 30px;
+    
+}
+#five{
+    border-radius: 50%;
+    padding: 3px 10px;
+    background: rgb(192, 188, 188);
+    border: 2px solid #666;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 10px;
+    font-size: large;
+}
+.your{
+    padding: 14px 20px 0px 20px ;
+}
+
+.view{
+    padding: 10px 0px 10px 20px;
+    border-top: solid grey;
+    display: block;
+    font-size: x-large;
+}

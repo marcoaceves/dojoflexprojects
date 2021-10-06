@@ -12,7 +12,7 @@ function removeShadow(element) {
 // counter
 
 var count = 1;
-var countElement = document.querySelector("#count")
+var countElement = document.querySelector("#plus")
 function add1() {
     count++;
     countElement.innerText = "The count is " + count;

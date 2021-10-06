@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <!--Top nav bar -->
+    <div class="navbar">
+        <h1>Profile</h1>
+        <ul>
+            <li><a href="#" class="navlinks">Home</a></li>
+            <li><a href="#" id="myprofile" class="navlinks">My Profile</a></li>
+            <li><a href="#" class="navlinks">Find Connections</a></li>
+            
+        </ul>
+        <button>Sign Out</button>
+    </div>
+        <!-- wrapper -->
+    <div class="wrapper">
+        <!-- left Row -->
+        <div class="row1">
+            <div class="container1">
+                <div class="box1">
+                    <h1 class="blue"><img src="images/jane-m.jpg"  class="float" id="circle_user" alt="user picture"></h1>
+                    <h1 id="marco">Jane Doe</h1>
+                    <h3 id="location"><img src="icons/map-marker.png" id="marker" alt="location marker"> California</h3>
+                    <P>Developer | Engineer | Problem Solver</P>
+                    <p>Master of the Shadow Realm and the Internet!</p>
+                    <h3><img src="icons/gear.png" id="gear"><a href="#">edit profile</a></h3>
+                </div>
+                <div class="box2">
+                    <h4 id="education" class="darkgrey1">Education</h4>
+                    <h1 id="codingdojo">Coding Dojo - Full Stack Bootcamp</h1>
+                    <h2 id="year">Aug 2021 - April 2022</h2>
+                    <h3 id="grade">Triple black belt in Python, Mern and C#...</h3>
+                </div>
+            </div>
+        </div>
+            <!-- right row -->
+        <div class="row2">
+            <div class="container2">
+                <div class="box3">
+                    <h4 class="two" ><span id="span2">2</span> Connection Request</h4>
+                    <div class="space">
+                        <span class="h1todd">
+                            <img src="images/todd-s.jpg" class="todd" >Todd E
+                            <img src="icons/accept-circle.png" class="accept" alt="accept button" onclick="yes()"> 
+                            <img src="icons/close-circle.png" class="close" onclick="no(this)">
+                        </span>
+                        <span class="phil">
+                            <img src="images/phil-s.jpg" class="todd"> Phil K
+                            <img src="icons/accept-circle.png" class="accept" onclick="yes2(this)"> 
+                            <img src="icons/close-circle.png" class="close" onclick="no2(this)">
+                        </span>
+                    </div>
+                </div>
+                <div class="box4">
+                    <h4 class="two"><span id="five">500</span> Your Connections</h4>
+                    <h1 class="h1todd"><img src="images/adrien-s.jpg" class="todd"> Adrien D </h1>
+                    <h1 class="h1todd"><img src="images/anne-s.jpg" class="todd"> Anne J </h1>
+                    <h1 class="h1todd"><img src="images/alayne-s.jpg" class="todd"> Alayne T </h1>
+                    <h1 class="h1todd"><img src="images/arry-s.jpg" class="todd"> Arry Y </h1>
+                    <!-- <  link on bottom of page> -->
+                    <a href="#"  class="view">View More</a>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
