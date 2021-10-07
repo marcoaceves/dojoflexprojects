@@ -37,3 +37,7 @@ function no2() {
     count.innerText = plus;
 }
 
+let name = document.querySelector('#marco')
+function change() {
+    
+}
