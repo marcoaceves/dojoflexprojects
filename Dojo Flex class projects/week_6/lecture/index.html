@@ -8,6 +8,33 @@
 </head>
 <body>
     <h1>Hello Github</h1>
+    <p>Hello, my name is <span id="name"></span> </p>
+    <input type="text" name="name" placeholder="Your name here" oninput="setNameOne(this)">
+
+    <h1>OnSelect - example</h1>
+    <select name="food" onchange="pickFood(this)">
+        <option>Pizza</option>
+        <option>Sushi</option>
+        <option>Sandwhich</option>
+        <option>Water</option>
+    </select>
+    <button onclick="order()">Order Food</button>
+
+    <label>I would like to eat </label>
+<select onchange="chooseLunch(this)">
+    <option>Tacos</option>
+    <option>Pasta</option>
+    <option>Sushi</option>
+</select>
+
+
+<div class="card">
+    <p>Hello my name is:</p>
+    <h3 id="name-tag">Example</h3>
+</div>
     
+<input type="text" value="Example" oninput="setName(this)">
+
 </body>
+<script src="script.js"></script>
 </html>

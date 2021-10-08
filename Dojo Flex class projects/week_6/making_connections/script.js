@@ -37,7 +37,12 @@ function no2() {
     count.innerText = plus;
 }
 
-let name = document.querySelector('#marco')
+let userName = document.querySelector('#marco')
+var newName = "Ninja Dojo"
+var oldName = "Jane Doe"
 function change() {
+    userName.innerText = newName  
+    
+    
     
 }

@@ -1,20 +1,27 @@
+var nameSpan = document.querySelector("#name")
+var foodToOrder = "Pizza";
 
-// var number = 7
+function setNameOne(element){
+    console.log(element.value)
+    nameSpan.innerText = element.value
 
-// console.log(6 + number)
+}
 
-// var strOne = "Hello ";
-// var strTwo = "World ";
-// var strtree = "Marco";
-// console.log(strOne + strTwo   + strtree);        
+function pickFood(element){
+    console.log("The food is " + element.value);
+    foodToOrder = element.value;
+    alert("Ordering a " + foodToOrder)
+}
 
-// var str = '"It`s been a grean night of coding"'
-// console.log(str)
+function order() {
+    alert("Ordering a " + foodToOrder)
 
-// var bool = true 
-
-var arr = ["marco ", "aceves", 22, 12, 12 ]
-console.log(arr[0] + arr[1])
-console.log(arr.length)
-
-console.log(arr.length + 9);
+}
+function chooseLunch(element) {
+    alert("You picked " + element.value);
+}
+var nameTag = document.querySelector("#name-tag");
+function setName(element) {
+    console.log(element.value);
+    nameTag.innerText = element.value;
+}
