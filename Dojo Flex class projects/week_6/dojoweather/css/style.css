@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 0 auto;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(158, 185, 236);
+    padding: 0 100px;
+}
+.navClick{
+    color: white;
+    text-decoration: none;
+}
+#dojoWeather{
+    padding-right: 40px;
+    font-size: 40px;
+    white-space: nowrap;
+}
+.cities{padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+
+li{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+/* first row of main content */
+.cityDisplaying{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    
+    
+}
+#sanJose{
+    padding-right: 150px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    ;
+}
+#showTemp{
+    padding-left: 160px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+/* weather boxes */
+.weatherImg{
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.weatherboxes{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.dayBox{
+    padding: 11px;
+    text-align: center;
+    width: 130px;
+    height: auto;
+    margin: 15px;
+    background-color: rgb(213, 219, 218);
+}
+.day{
+    padding-bottom: 10px;
+}
+.someWeather{
+    margin: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.temperature{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    padding-bottom: 15px;
+}
+#hotOne, #hotTwo, #hotTree, #hotFour{
+    color: red;
+}
+#coldOne, #coldTwo, #coldTree, #coldFour{
+    color: cornflowerblue;
+}
+
+/* cookie bar */
+.cookieBar{
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    width: 690px;
+    position: fixed;
+    bottom: 100px;
+    margin: 5% auto; 
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    
+}
+#acceptBtn{
+    border: 3px solid black;
+    background-color: rgb(158, 189, 247);
+    width: 200px;
+    height: 30px;
+    white-space: nowrap;
+    margin:auto;
+    margin-left: 5px;
+    box-shadow: 3px 3px   black ;
+
+    
+    
+}
+#cookieImg{
+    width: 70px;
+    margin: auto;
+    margin-right: 10px;
+}
+a{
+    color: blue;
+}
