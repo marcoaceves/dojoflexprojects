@@ -34,6 +34,9 @@ function randomPizza(){
     pizza.cheeses = cheese[ranCheese];
     pizza.toppings = toppings[ranTop];
     return(pizza);
+    var test = 1234
+    
+
 
     
 
