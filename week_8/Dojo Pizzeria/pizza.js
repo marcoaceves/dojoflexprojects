@@ -39,4 +39,6 @@ function randomPizza(){
 
 }
 
+var ipad_test= "success"
+
 console.log(randomPizza());
